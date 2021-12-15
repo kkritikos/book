@@ -37,7 +37,7 @@
     <module>book-domain</module>
     <module>book-rest</module>
     <module>book-client</module>
-    <!-- <module>book-functional-tests</module> -->
+    <module>book-functional-tests</module>
   </modules>
   
   <pluginRepositories>
