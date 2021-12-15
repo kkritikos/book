@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Aegean Library REST Service</title>
+</head>
+<body>
+<h1>Welcome to the Aegean Library REST Service</h1>
+<p>It offers methods to read list of books as well as inspect details for a book</p>
+<p>As well as to update book descriptions for admins</p>
+<hr/>
+<a href="rest/book">GET ALL BOOKs</a>
+<hr/>
+<form id="form1">
+<label>Book ISBN</label>
+<input id="isbn" name="isbn" type="text"/>
+<button type="submit" onclick="window.open(window.location.href + 'rest/book/' + document.getElementById('isbn').value)">Book Details</button>
+<button type="reset">Reset</button>
+</form>
+</body>
+</html>
